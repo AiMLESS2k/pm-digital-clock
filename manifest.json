@@ -1,0 +1,12 @@
+{
+  "id": "pm-digital-clock",
+  "name": "Digital Clock",
+  "version": "1.0.0",
+  "author": "PanelMate Team",
+  "description": "A clean digital clock widget for your dashboard.",
+  "type": "widget",
+  "entryPoints": {
+    "widget": "index.html",
+    "backend": "backend.js"
+  }
+}
