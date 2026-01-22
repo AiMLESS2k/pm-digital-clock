@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { 
+            color: #fca329; 
+            font-family: 'JetBrains Mono', monospace; 
+            text-align: center;
+            background: transparent;
+        }
+        #clock { font-size: 2rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
