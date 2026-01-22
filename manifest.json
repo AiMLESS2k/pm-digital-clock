@@ -6,7 +6,6 @@
   "description": "A clean digital clock widget for your dashboard.",
   "type": "widget",
   "entryPoints": {
-    "widget": "index.html",
-    "backend": "backend.js"
+    "widget": "index.html"
   }
 }
